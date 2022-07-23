@@ -1,6 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
+            isActive: true,
             cart:0,
             product: 'Socks',
             brand: 'Vue Mastery',
